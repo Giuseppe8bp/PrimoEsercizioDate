@@ -11,7 +11,7 @@ public class PrimoEsercizioDate {
 		
 		String dateString = data.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL));
 		
-		System.out.println(dateString);
+		//System.out.println(dateString);
 		
 		String dateString1 = data.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM));
 		System.out.println(dateString1);
