@@ -9,8 +9,6 @@ public class PrimoEsercizioDate {
 
 		OffsetDateTime data= OffsetDateTime.parse("2002-03-01T13:00:00Z");
 		
-		System.out.println(data);
-		
 		String dateString = data.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL));
 		
 		System.out.println(dateString);
